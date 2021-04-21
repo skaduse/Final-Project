@@ -50,7 +50,7 @@ export default {
 <style>
 
 .home {
-  min-height: 550px;
+  min-height: 780px;
 }
 .top-margin {
   width: 100%;

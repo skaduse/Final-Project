@@ -34,7 +34,7 @@ export default {
 <style scoped>
 .dashboard {
   padding-top: 10px;
-  min-height: 550px;
+  min-height: 780px;
 }
 
 body {
