@@ -230,6 +230,7 @@ export default {
       async removePost() {
         try {
           await axios.delete("/api/photos/" + this.photo[0]._id);
+          history.go(-1);
           return true;
         } catch (error) {
           console.log(error);
